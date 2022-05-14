@@ -1,3 +1,7 @@
+wait(0.1)
+if game.CoreGui:FindFirstChild("FluxLib") then
+    game.CoreGui["FluxLib"]:Destroy()
+    end
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
 local win = Flux:Window("PREVIEW", "Baseplate", Color3.fromRGB(25, 131, 223), Enum.KeyCode.LeftControl)
